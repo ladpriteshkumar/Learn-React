@@ -78,3 +78,9 @@ return 0;
 
 ## 13. What are the scripting languages that we can use with React?
 React is typically used with JavaScript, but it can also be used with other scripting languages that compile to JavaScript, such as TypeScript and CoffeeScript.
+
+## 14. What is TypeScript ?
+TypeScript is a superset of JavaScript that adds optional static typing and other features to the language. It is commonly used in large-scale JavaScript projects to improve code quality and maintainability.
+
+## 15. What is Reconciliation in react ?
+Reconciliation is the process in which React updates the DOM based on changes in a component's state or props. It compares the old and new virtual DOM trees, applies changes only where necessary, and uses algorithms like key-based reconciliation and memoization to optimize the process and improve performance.
