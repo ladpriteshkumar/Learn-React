@@ -24,3 +24,9 @@ Great performer, since it uses Virtual DOM | Angular uses actual DOM which affec
 
 ## 4. What is CDN ?
 CDN stands for Content Delivery Network. It is a distributed network of servers that provides faster delivery of website content by caching it on multiple servers.
+
+## 5. What is a Cross Origin Attribute ?
+A Cross Origin Attribute is a security feature used in web development that allows or restricts scripts, stylesheets, images, and other resources from different domains to interact with each other.
+
+## 6. What is Babel ?
+Babel is a JavaScript transpiler that converts modern JavaScript code into a backward-compatible version that can run in older browsers. It is commonly used in web development to ensure compatibility across different platforms.
