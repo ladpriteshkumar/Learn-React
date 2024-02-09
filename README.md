@@ -30,3 +30,9 @@ A Cross Origin Attribute is a security feature used in web development that allo
 
 ## 6. What is Babel ?
 Babel is a JavaScript transpiler that converts modern JavaScript code into a backward-compatible version that can run in older browsers. It is commonly used in web development to ensure compatibility across different platforms.
+
+## 7. What is Webpack ?
+Webpack is a module bundler for JavaScript applications. It takes modules with dependencies and generates a single bundle that can be loaded by a browser.
+
+## 8. Can you name some other bundler ?
+Some other popular module bundlers are Browserify, Rollup, Parcel, and FuseBox.
