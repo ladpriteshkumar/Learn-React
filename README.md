@@ -21,3 +21,6 @@ Presentation code in JavaScript powered by JSX | Presentation code in HTML embed
 React's core size is smaller than Angular, so bit fast | Angular being a framework contains a lot of code, resulting in longer load time
 React is very flexible | Angular has less flexibility
 Great performer, since it uses Virtual DOM | Angular uses actual DOM which affects its performance
+
+## 4. What is CDN ?
+CDN stands for Content Delivery Network. It is a distributed network of servers that provides faster delivery of website content by caching it on multiple servers.
