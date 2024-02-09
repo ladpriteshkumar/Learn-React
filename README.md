@@ -75,3 +75,6 @@ return 0;
 
 }
 ```
+
+## 13. What are the scripting languages that we can use with React?
+React is typically used with JavaScript, but it can also be used with other scripting languages that compile to JavaScript, such as TypeScript and CoffeeScript.
