@@ -1,7 +1,8 @@
 # React-Interview-Question-Answer
 
 ## 1. What is React ?  
-React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of the application efficiently.
+React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of the application efficiently.\
+We call React a JavaScript library because it is a collection of pre-written JavaScript code
 
 ## 2. fearures of React 
 The key features of React are:
