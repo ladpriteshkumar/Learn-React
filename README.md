@@ -36,3 +36,41 @@ Webpack is a module bundler for JavaScript applications. It takes modules with d
 
 ## 8. Can you name some other bundler ?
 Some other popular module bundlers are Browserify, Rollup, Parcel, and FuseBox.
+
+## 9. What is package.json and why it is important ?
+package.json is a configuration file in Node.js projects that contains metadata about the project, such as dependencies, scripts, and other project-specific details. It is important because it helps in managing the project's dependencies and automating common tasks.
+
+## 10. What is NPM ?
+NPM stands for Node Package Manager. It is a package manager for Node.js projects that allows developers to install and manage third-party packages and dependencies.
+
+## 11. What is Git ?
+Git is a version control system used in software development to manage code changes and collaborate with other developers. It allows developers to track and revert changes, work on different branches, and merge code changes.
+
+## 12. What is PolyFill ?
+A polyfill is a piece of code that provides functionality that is not natively supported by a browser. It is commonly used to add support for new web APIs and features to older browsers.
+
+```JavaScript
+if (!Math.sign) { // if the function does not exist
+
+// implementation
+
+Math.sign = function(number) {
+
+if (number > 0) {
+
+return 1;
+
+} else if (number < 0) {
+
+return -1;
+
+} else {
+
+return 0;
+
+}
+
+};
+
+}
+```
