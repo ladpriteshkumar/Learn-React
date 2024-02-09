@@ -84,3 +84,6 @@ TypeScript is a superset of JavaScript that adds optional static typing and othe
 
 ## 15. What is Reconciliation in react ?
 Reconciliation is the process in which React updates the DOM based on changes in a component's state or props. It compares the old and new virtual DOM trees, applies changes only where necessary, and uses algorithms like key-based reconciliation and memoization to optimize the process and improve performance.
+
+## 16. Can you explain the concept of a Virtual DOM in React, and how it contributes to performance?
+The Virtual DOM is a lightweight copy of the actual DOM that React uses to keep track of changes in the UI. When a component's state or props change, React creates a new Virtual DOM tree, compares it to the previous tree, and identifies the specific changes that need to be made to the actual DOM. This allows React to update only the necessary parts of the UI, rather than the entire tree, which contributes to better performance. The Virtual DOM also allows for efficient batch updates and reduces the frequency of expensive DOM operations.
