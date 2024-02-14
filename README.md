@@ -119,3 +119,12 @@ When the state or props of a component change in React, a new virtual DOM tree i
 
 ## 25. What is a diffing algorithm in React?
 A diffing algorithm in React is a process that compares the current virtual DOM tree with the previous one and identifies the minimal set of changes required to update the actual DOM. This is done by checking the type, props, and children of each node in the tree and updating only those specific parts of the DOM that need to be changed, rather than updating the entire tree.
+
+## 26. What is a SPA or Single Page Application? ##
+A Single Page Application (SPA) is a web application that dynamically updates a single HTML page using JavaScript frameworks, such as React, Angular, or Vue.js. The initial HTML file, JavaScript, and CSS are loaded when the user visits the application, and subsequent interactions with the application trigger updates to the page content without requiring a full page reload. This provides a seamless and responsive user experience.
+
+## 27. What is React, and how does it differ from other front-end frameworks or libraries? ##
+React is a JavaScript library for building user interfaces. It is different from other front-end frameworks or libraries because it focuses only on the view layer, uses a declarative programming style, and has a large and active community.
+
+## 28 What is Emmet?
+Emmet is a web development tool that helps in writing HTML and CSS code quickly and efficiently. It uses abbreviations or shortcuts to generate code.
