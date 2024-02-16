@@ -32,4 +32,7 @@ npx is a tool to run node packages without  installing binaries
 
 The above command creates a project my-app with the below folder structure:
 
-<img src="react_folder_structure">
+<p align="center">
+  <img src="/react_folder_structure.PNG" alt="react folder structure"/>
+</p>
+
