@@ -29,3 +29,7 @@ If you do not want to install create-react-app then you can use the below comman
 npx create-react-app my-app
 ```
 npx is a tool to run node packages without  installing binaries
+
+The above command creates a project my-app with the below folder structure:
+
+<img src="react_folder_structure">
