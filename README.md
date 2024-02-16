@@ -128,3 +128,20 @@ React is a JavaScript library for building user interfaces. It is different from
 
 ## 28 What is Emmet?
 Emmet is a web development tool that helps in writing HTML and CSS code quickly and efficiently. It uses abbreviations or shortcuts to generate code.
+
+# React Component #
+
+## 29. What is a Pure Component in React, and how does it differ from a regular component?
+A pure component only re-renders if the props or state change. It seperates the state management from the React Component.To create Pure Components, Class Components can extend React.PureComponent , while functional components can be wrapped within React.memo.
+
+## 30. What is the benefit of using PureComponents?
+The benefit of using PureComponents is that they can improve the performance of your React application by reducing unnecessary re-renders.
+
+## 31. What are controlled and uncontrolled components in React?
+Controlled components are components where the value of the form element is controlled by React state. Uncontrolled components are components where the value of the form element is controlled by the DOM.
+
+## 32. Give example of controlled component in React, and why would you want to use one?
+An example of a controlled component in React is a text input field where the value is controlled by React state. You would want to use a controlled component when you need to handle user input and update the state of your application.
+
+## 33. How do you handle user input in a controlled component?
+You handle user input in a controlled component by adding an onChange() event handler that updates the state of your application with the new value of the input field.
