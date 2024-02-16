@@ -145,3 +145,24 @@ An example of a controlled component in React is a text input field where the va
 
 ## 33. How do you handle user input in a controlled component?
 You handle user input in a controlled component by adding an onChange() event handler that updates the state of your application with the new value of the input field.
+
+## 34. How do you create a stateless functional component in React, and when would you use one?
+You create a stateless functional component in React by writing a function that returns JSX. You would use a stateless functional component when you don't need to manage state or use lifecycle methods.
+
+## 35. Can you explain the difference between a presentational component and a container component in React?
+A presentational component is a component that only handles rendering and has no business logic. A container component is a component that manages the state of the application and passes data down to presentational components.
+
+## 36. What is advantage of using component based structure in building react appilcation?
+The advantage of using a component-based structure in building a React application is that it allows for modularity and reusability of code. It also makes it easier to manage and maintain large applications.
+
+## 37. Can you explain the difference between static and dynamic rendering of components in React?
+Static rendering is when a component is rendered once and doesn't change. Dynamic rendering is when a component can be re-rendered based on changes in state or props.
+
+## 38. How do you conditionally render components in React?
+You conditionally render components in React by using conditional statements, such as if/else or ternary operators, short circuiting, in your JSX.
+
+## 39. How do you handle nested components in React, and what are some best practices for organizing and managing complex component hierarchies?
+You handle nested components in React by breaking down the UI into smaller, reusable components and passing down data as props. Some best practices for organizing and managing complex component hierarchies include using presentational and container components, avoiding deeply nested components, and using a state management library like Redux.
+
+## 40. Can you explain the concept of JSX in React, and how it allows you to write HTML-like syntax in your JavaScript code?
+JSX is a syntax extension for JavaScript that allows you to write HTML-like syntax in your JavaScript code. It is used to describe the structure of the UI in React components, and is transformed into JavaScript at build time. It makes it easier to write and reason about UI code
