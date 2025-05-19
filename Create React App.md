@@ -1,6 +1,6 @@
 # [Create React App](https://create-react-app.dev/docs/getting-started) #
 
-#### Create React App is deprecated
+#### Create React App is deprecated  [See Reference](https://react.dev/blog/2025/02/14/sunsetting-create-react-app) 
 
 The create-react-app tool can be used as it provides a modern build setup allowing to create and run React applications with minimal configuration. The create-react-app is a command-line interface (CLI).
 
