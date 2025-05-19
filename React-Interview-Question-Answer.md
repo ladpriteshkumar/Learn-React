@@ -166,3 +166,6 @@ You handle nested components in React by breaking down the UI into smaller, reus
 
 ## 40. Can you explain the concept of JSX in React, and how it allows you to write HTML-like syntax in your JavaScript code?
 JSX is a syntax extension for JavaScript that allows you to write HTML-like syntax in your JavaScript code. It is used to describe the structure of the UI in React components, and is transformed into JavaScript at build time. It makes it easier to write and reason about UI code
+
+## 41. Difference Between Virtual DOM and Real DOM
+[Rererence](https://www.geeksforgeeks.org/difference-between-virtual-dom-and-real-dom/)
