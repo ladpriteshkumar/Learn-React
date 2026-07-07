@@ -243,10 +243,112 @@ Used in frameworks like Next.js with React Server Components.
 
 ---
 
-If you want, I can also prepare:
-- A **cheat sheet** of hooks with examples  
-- A **React hooks interview question list**  
-- A **diagram showing how hooks work**
+You identify lifecycle behavior in **functional components** by understanding how `useEffect` maps to the three lifecycle phases: **mount**, **update**, and **unmount**. Functional components don’t have lifecycle *methods*, but hooks let you replicate them precisely.
+
+Below is the clean, interview‑ready breakdown.
+
+---
+
+## ⭐ **How to Identify Lifecycle Hooks in Functional Components**
+
+React lifecycle in functional components is controlled entirely through **`useEffect`** and its dependency array.
+
+---
+
+## 🟦 **1. Mounting (componentDidMount)**  
+Runs **once** when the component first appears on the screen.
+
+### ✔ How to identify it  
+Look for `useEffect` with an **empty dependency array**:
+
+```jsx
+useEffect(() => {
+  console.log("Mounted");
+}, []);
+```
+
+### ✔ What it’s used for  
+- Fetching initial data  
+- Setting up event listeners  
+- Starting timers  
+- Initializing subscriptions  
+
+---
+
+## 🟩 **2. Updating (componentDidUpdate)**  
+Runs **every time** state or props change.
+
+### ✔ How to identify it  
+Look for `useEffect` with **specific dependencies**:
+
+```jsx
+useEffect(() => {
+  console.log("Updated because count changed");
+}, [count]);
+```
+
+### ✔ What it’s used for  
+- Reacting to state/prop changes  
+- Fetching new data when props change  
+- Running calculations after re-render  
+
+If the dependency array is **missing**, the effect runs on **every render**:
+
+```jsx
+useEffect(() => {
+  console.log("Runs on every update");
+});
+```
+
+---
+
+## 🟧 **3. Unmounting (componentWillUnmount)**  
+Runs when the component is removed from the DOM.
+
+### ✔ How to identify it  
+Look for a **cleanup function** returned inside `useEffect`:
+
+```jsx
+useEffect(() => {
+  return () => {
+    console.log("Unmounted");
+  };
+}, []);
+```
+
+### ✔ What it’s used for  
+- Removing event listeners  
+- Clearing timers  
+- Canceling API requests  
+- Closing WebSocket connections  
+
+---
+
+## 🟪 **4. Combined Lifecycle Example**
+
+```jsx
+useEffect(() => {
+  console.log("Mounted or Updated");
+
+  return () => {
+    console.log("Cleanup before next update or unmount");
+  };
+}, [value]);
+```
+
+### This effect does:
+- Runs on mount  
+- Runs on every update when `value` changes  
+- Runs cleanup before next update  
+- Runs cleanup on unmount  
+
+---
+
+## 🎯 **Interview-Ready Summary**
+> In functional components, lifecycle events are identified through how `useEffect` is used. An empty dependency array represents mounting, dependencies represent updates, and the cleanup function represents unmounting. Functional components don’t have lifecycle methods, but hooks replicate all lifecycle behavior.
+
+---
+
 
 > ## Difference between  React and Angular
   React  | Angular
