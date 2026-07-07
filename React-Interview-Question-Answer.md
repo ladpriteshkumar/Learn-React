@@ -37,6 +37,10 @@ Reconciliation is the process in which React updates the DOM based on changes in
 > ## What is component in React ?
 A React component is a reusable, self-contained piece of UI that manages its own structure, logic, and behavior. It receives data through props, can maintain internal state, and returns JSX to describe what should appear on the screen.
 
+
+> ## How to Optimize a Large React Application ?
+  To optimize a large React application, you reduce unnecessary re-renders, split code intelligently, manage state efficiently, minimize bundle size, optimize API calls, and leverage modern React features like concurrent rendering. You also improve build performance, optimize assets, and use scalable architecture patterns.
+
 > ## Difference between  React and Angular
   React  | Angular
 ------------- | -------------
