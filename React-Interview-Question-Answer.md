@@ -13,27 +13,14 @@ The key features of React are:
 * __JSX syntax:__ React used JSX syntax which is similar to XML and HTML syntax that makes it easy for writing markup and binding events in components. 
 * __SEO performance:__ The SEO performance can be improved using the server-side rendering concept.  Isomorphic applications can be developed by using React which increases the SEO performance.
 
+> ## Can you explain the concept of a Virtual DOM in React, and how it contributes to performance?
+The Virtual DOM is a lightweight copy of the actual DOM that React uses to keep track of changes in the UI. When a component's state or props change, React creates a new Virtual DOM tree, compares it to the previous tree, and identifies the specific changes that need to be made to the actual DOM. This allows React to update only the necessary parts of the UI, rather than the entire tree, which contributes to better performance. The Virtual DOM also allows for efficient batch updates and reduces the frequency of expensive DOM operations.
 
 > ## What is Reconciliation in react ?
 Reconciliation is the process in which React updates the DOM based on changes in a component's state or props. It compares the old and new virtual DOM trees, applies changes only where necessary, and uses algorithms like key-based reconciliation and memoization to optimize the process and improve performance.
 
-> ## Can you explain the concept of a Virtual DOM in React, and how it contributes to performance?
-The Virtual DOM is a lightweight copy of the actual DOM that React uses to keep track of changes in the UI. When a component's state or props change, React creates a new Virtual DOM tree, compares it to the previous tree, and identifies the specific changes that need to be made to the actual DOM. This allows React to update only the necessary parts of the UI, rather than the entire tree, which contributes to better performance. The Virtual DOM also allows for efficient batch updates and reduces the frequency of expensive DOM operations.
-
-
-## 3. Difference between  React and Angular
-  React  | Angular
-------------- | -------------
-React is a small view library  | Angular is a full framework
-React covers only the rendering and event handling part	  | Angular provides the complete solution for front-end development
-Presentation code in JavaScript powered by JSX | Presentation code in HTML embedded with JavaScript expressions
-React's core size is smaller than Angular, so bit fast | Angular being a framework contains a lot of code, resulting in longer load time
-React is very flexible | Angular has less flexibility
-Great performer, since it uses Virtual DOM | Angular uses actual DOM which affects its performance
-
-## 4. Difference Between Virtual DOM and Real DOM
+> ## Difference Between Virtual DOM and Real DOM
 [Rererence](https://www.geeksforgeeks.org/difference-between-virtual-dom-and-real-dom/)
-
 
 ## **Key Differences**
 
@@ -43,6 +30,26 @@ Great performer, since it uses Virtual DOM | Angular uses actual DOM which affec
 | **Performance** | Every update directly manipulates the DOM, Leading to potential slower perfomance. | Optimizes updates by calculating minimal changes needed. |
 | **Rendering Process** | Updates the real DOM directly without any intermediate step. | Updates the virtual DOM first, then reconciles with the real DOM. |
 | **Efficiency** | Can become inefficient with frequent updates, especially in large applications. | More efficient for complex applications, reduces reflow and repaint. |
+
+---
+
+
+> ## What is component in React ?
+A React component is a reusable, self-contained piece of UI that manages its own structure, logic, and behavior. It receives data through props, can maintain internal state, and returns JSX to describe what should appear on the screen.
+
+> ## Difference between  React and Angular
+  React  | Angular
+------------- | -------------
+React is a small view library  | Angular is a full framework
+React covers only the rendering and event handling part	  | Angular provides the complete solution for front-end development
+Presentation code in JavaScript powered by JSX | Presentation code in HTML embedded with JavaScript expressions
+React's core size is smaller than Angular, so bit fast | Angular being a framework contains a lot of code, resulting in longer load time
+React is very flexible | Angular has less flexibility
+Great performer, since it uses Virtual DOM | Angular uses actual DOM which affects its performance
+
+
+
+
 
 ## 5. What is CDN ?
 CDN stands for Content Delivery Network. It is a distributed network of servers that provides faster delivery of website content by caching it on multiple servers.
