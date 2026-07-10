@@ -46,3 +46,5 @@ it will prompt for *Project Name*, *select a framework*, *select a variant*
 
 <img src="Create_Vite_App.png" />
 
+To run application, navigate to the project folder run `npm run dev` cmd
+
