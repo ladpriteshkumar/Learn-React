@@ -11,11 +11,12 @@ https://react.dev/learn/creating-a-react-app
 
 # Install nodeJS
 
-1. Install node.js Latest version from [Node.js](https://nodejs.org/en/download) official site.   
-   alternatively you can you `winget` to install nodeJS.
-   ```cmd
-   winget install nodeJS
-   ```
+Install node.js Latest version from [Node.js](https://nodejs.org/en/download) official site.   
+alternatively you can you `winget` to install nodeJS.
+   
+```cmd
+winget install nodeJS
+```
 You can check the node version installed in your machine by running the following command that displays the node version as follows:
 
 ```
