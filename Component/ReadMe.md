@@ -20,7 +20,7 @@ Key rules and differences from HTML
 - JSX must return a single root element (wrap siblings in a parent element or a Fragment: <>...</>).
 - Use camelCase for event handlers and attributes (onClick, onMouseEnter).
 - Use className instead of class, htmlFor instead of for.
-- All tags must be closed: <img src="..."/> or <br />.
+- All tags must be closed: `<img src="..."/>` or `<br />`.
 - Components must be capitalized to be treated as custom components (MyButton vs div).
 - You can embed expressions with { ... } — any JS expression (not statements).
 - Comments inside JSX: {/* comment */}.
