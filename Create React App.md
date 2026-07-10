@@ -26,20 +26,9 @@ winget uninstall nodejs
 
 Learn mode about "winget"  [click here](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
 
-Install create-react-app by running the following command:
-```
-npm install -g create-react-app
-```
 
-If you do not want to install create-react-app then you can use the below command to create a React application
-```
-npx create-react-app my-app
 ```
 npx is a tool to run node packages without  installing binaries
 
-The above command creates a project my-app with the below folder structure:
 
-<p align="center">
-  <img src="/react_folder_structure.PNG" alt="react folder structure"/>
-</p>
 
