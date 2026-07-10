@@ -33,6 +33,14 @@ Learn mode about "winget"  [click here](https://learn.microsoft.com/en-us/window
 
 ```
 npx is a tool to run node packages without  installing binaries
+```
 
+# Create project using `**Vite**` 
+create new project by running below command in cmd (you can chosse location where you want to create project)
+```
+npm create vite@latest
+```
 
+`create vite@latest`  cmd guide you create project in directory you chosse.
+it will prompt for *Project Name*, *select a framework*, *select a variant* 
 
