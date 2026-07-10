@@ -44,3 +44,5 @@ npm create vite@latest
 `create vite@latest`  cmd guide you create project in directory you chosse.
 it will prompt for *Project Name*, *select a framework*, *select a variant* 
 
+<img src="Create_Vite_App.png" />
+
