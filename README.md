@@ -3,4 +3,6 @@
 
 ## [Create React App](https://github.com/ladpriteshkumar/Learn-React/blob/main/Create%20React%20App.md)
 
-## Create Component in React.
+## Component in React.
+
+## JSX
