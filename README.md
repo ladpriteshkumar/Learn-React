@@ -6,3 +6,5 @@
 ## Component in React.
 
 ## JSX
+
+## Add Style to Componment
