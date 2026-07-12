@@ -1,9 +1,11 @@
 # Component in React
 
 
-# Class componemt
+### Class componemt
 
+### functional component 
 
+### pure compinent
 
-# functional component 
+### higher order component
 
