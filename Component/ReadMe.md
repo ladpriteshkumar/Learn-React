@@ -9,3 +9,6 @@
 
 ### higher order component
 
+
+#### map()  method in react
+
