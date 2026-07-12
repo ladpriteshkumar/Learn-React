@@ -8,3 +8,5 @@
 ## JSX
 
 ## Add Style to Componment
+
+## state and props in React
