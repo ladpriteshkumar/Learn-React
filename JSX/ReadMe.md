@@ -99,7 +99,7 @@ Best practices and pitfalls
 - Remember event handlers receive SyntheticEvent objects; to pass extra args, wrap in an arrow function.
 - Don’t mutate props; keep UI declarative.
 
-If you want, I can:
-- Show how to configure Babel/webpack or Vite to compile JSX.
-- Convert a JSX snippet to its React.createElement equivalent.
-- Explain the new automatic JSX runtime and why it matters.
+
+## React Fragment
+
+## Empty Tags
