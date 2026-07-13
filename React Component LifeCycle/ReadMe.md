@@ -2,6 +2,7 @@
 ># React Component Lifecycle
 
 > ## useState
+> `useState` is a React Hook that let you add state to the functional components.
 > 
 
 
