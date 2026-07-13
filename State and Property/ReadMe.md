@@ -1,8 +1,7 @@
 
 What is State ?
 
-## What is `useState` ?
-`useState` is a react hook that let you add state to the functional component ?
+
 
 ## spread operator  ( `...employee` )
 
