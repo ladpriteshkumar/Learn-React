@@ -14,3 +14,8 @@
 ## [React component Lifecycle](https://github.com/ladpriteshkumar/Learn-React/blob/main/React%20Component%20LifeCycle/ReadMe.md)
 
 ## [React Forms](https://github.com/ladpriteshkumar/Learn-React/blob/main/React%20Forms/ReadMe.md)
+
+## Routing in React
+
+## Global State Management
+#### Redux
