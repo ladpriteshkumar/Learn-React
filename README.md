@@ -17,5 +17,5 @@
 
 ## Routing in React
 
-## Global State Management
+## [Global State Management](https://github.com/ladpriteshkumar/Learn-React/blob/main/Global%20State%20Management/ReadMe.md)
 #### Redux
