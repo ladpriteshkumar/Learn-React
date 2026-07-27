@@ -14,6 +14,93 @@ Core principles:
 - Changes are made with pure functions: Reducers are pure functions that take the previous state and an action, and return the next state.
 
 
+
+
+Quick answer
+- Store: the single source of truth that holds app state and exposes getState(), dispatch(action), and subscribe(listener).
+- Action: a plain JS object describing “what happened” (must have type). Action creators are helpers that produce actions.
+- Reducer: a pure function (state, action) => newState that describes how actions transform state.
+
+Short explanation + minimal examples
+
+Store
+- What it is: the central place that holds your app’s state. Typically one store per app.
+- Key responsibilities: keep state, let you read it (getState), update it (dispatch), and subscribe to changes.
+- Example (plain Redux):
+```js name=store.js
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import counterReducer from './counterReducer';
+
+const rootReducer = combineReducers({ counter: counterReducer });
+const store = createStore(rootReducer, applyMiddleware(thunk));
+export default store;
+```
+
+Action
+- What it is: a plain object describing an event. Must include a type (string). Can include payload and meta.
+- Why actions: they are the only way to express an intent to change the state.
+- Action creator (helper):
+```js name=actions.js
+// simple action object
+const incrementAction = { type: 'counter/increment' };
+
+// action creator
+export const increment = () => ({ type: 'counter/increment' });
+
+// payload example
+export const incrementBy = (amount) => ({ type: 'counter/incrementBy', payload: amount });
+
+// async (thunk) action creator
+export const fetchInitial = () => async (dispatch) => {
+  dispatch({ type: 'counter/fetchStart' });
+  const res = await fetch('/api/counter');
+  const data = await res.json();
+  dispatch({ type: 'counter/set', payload: data.value });
+};
+```
+
+Reducer
+- What it is: a pure function that takes the previous state and an action and returns the next state. No side effects, no mutations.
+- Why pure: ensures predictable updates, enables time-travel debugging and simple testing.
+- Minimal reducer:
+```js name=counterReducer.js
+const initialState = { value: 0 };
+
+export default function counterReducer(state = initialState, action) {
+  switch (action.type) {
+    case 'counter/increment':
+      return { ...state, value: state.value + 1 };
+    case 'counter/decrement':
+      return { ...state, value: state.value - 1 };
+    case 'counter/incrementBy':
+      return { ...state, value: state.value + action.payload };
+    case 'counter/set':
+      return { ...state, value: action.payload };
+    default:
+      return state;
+  }
+}
+```
+
+How they fit together (data flow)
+1. UI calls dispatch(action) (or an action creator).
+2. Action flows through middleware (logging/thunks/sagas) if present.
+3. Reducers receive the action and return new state.
+4. Store updates and notifies subscribers (React-Redux re-renders components that select affected state).
+
+Practical tips / best practices
+- Keep reducers pure and small; split state into slices.
+- Use action creators to keep action creation consistent.
+- Prefer Redux Toolkit (RTK) for less boilerplate — it gives createSlice, configureStore, and Immer-based reducers.
+- Use selectors to read/compute derived state and to avoid unnecessary re-renders.
+- Normalize complex/nested data (entities by id) to make updates simpler.
+
+What I did and what I can do next
+- I reviewed your Redux.md content (the counter example there matches the snippets above) and distilled the core concepts with minimal examples.
+- Next I can convert your plain example to a concise Redux Toolkit slice and store, or show a complete small React app wiring (index + Counter component) if you want. Which would you prefer?
+
+
 ## Main concepts
 
 - Store: Holds the application state.
