@@ -19,3 +19,5 @@
 
 ## [Global State Management](https://github.com/ladpriteshkumar/Learn-React/blob/main/Global%20State%20Management/ReadMe.md)
 
+## Making API call in React Application  (use RTK Query)
+
