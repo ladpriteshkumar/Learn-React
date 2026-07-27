@@ -6,7 +6,7 @@ This document explains Redux — a predictable state container for JavaScript ap
 
 ## What is Redux?
 
-Redux is a predictable state container for JavaScript applications. It helps manage application state in a single place (the store), making the state changes explicit and easier to debug and test.
+Redux is a predictable state container (State Management Library) for JavaScript applications. It helps manage application state in a single place (the store), making the state changes explicit and easier to debug and test.
 
 Core principles:
 - Single source of truth: The whole app state is stored in a single store object.
