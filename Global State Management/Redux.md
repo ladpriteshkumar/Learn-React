@@ -1,7 +1,5 @@
 # Redux
 
-This document explains Redux — a predictable state container for JavaScript apps — and shows a practical example integrating Redux with a React app. It covers core concepts, setup, a complete counter example, async actions with thunk, and a brief note on Redux Toolkit (recommended).
-
 ---
 
 ## What is Redux?
@@ -14,12 +12,10 @@ Core principles:
 - Changes are made with pure functions: Reducers are pure functions that take the previous state and an action, and return the next state.
 
 
-
-
-Quick answer
-- Store: the single source of truth that holds app state and exposes getState(), dispatch(action), and subscribe(listener).
-- Action: a plain JS object describing “what happened” (must have type). Action creators are helpers that produce actions.
-- Reducer: a pure function (state, action) => newState that describes how actions transform state.
+### Key Concept
+- **Store:** the single source of truth that holds app state and exposes getState(), dispatch(action), and subscribe(listener).
+- **Action:** a plain JS object describing “what happened” (must have type). Action creators are helpers that produce actions.
+- **Reducer:** a pure function (state, action) => newState that describes how actions transform state.
 
 Short explanation + minimal examples
 
