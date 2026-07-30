@@ -18,6 +18,11 @@
 
 ---
 ## Class Component Lifecycle 
+### Mounting phase
+- constructor()
+- static getDerivedStateFromProps()
+- render()
+- componentDidMount()
 
 ## Functional Component Lifecycle
 
