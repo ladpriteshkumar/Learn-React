@@ -24,6 +24,16 @@
 - render()
 - componentDidMount()
 
+### Updating phase
+- static getDerivedStateFromProps()
+- shouldComponentUpdate()
+- render()
+- getSnapshotBeforeUpdate()
+- componentDidUpdate()
+- shouldComponentUpdate(nextProps,nextState)
+- 
+### unmount phase
+
 ## Functional Component Lifecycle
 
 ># `useEffect` hook
