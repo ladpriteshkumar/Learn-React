@@ -6,6 +6,17 @@
 >- unmounting phase
 
 
+
+> **Mounting** :Mounting is the process where React renders a component for the first time and inserts its resulting DOM element into Actual DOM <br>
+> OR <br>
+> Mounting means a component appears in the UI for the first time.
+
+> **Unmountion** Unmounting is the process of removing mounted component from Actual DOM
+
+
+> **updating** : when component state or props change the we update it to the Actual DOM
+
+---
 ## Class Component Lifecycle 
 
 ## Functional Component Lifecycle
