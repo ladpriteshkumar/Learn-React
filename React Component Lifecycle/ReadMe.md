@@ -32,7 +32,8 @@
 - componentDidUpdate()
 - shouldComponentUpdate(nextProps,nextState)
 - 
-### unmount phase
+### unmounting phase
+- componentWillUnmount()
 
 ## Functional Component Lifecycle
 
