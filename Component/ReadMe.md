@@ -1,10 +1,16 @@
 # Component in React
 
+**There are two way we can create component in React**
 
-### Class componemt
+1. Class Component
+2. Functional Component
 
-### functional component 
+Component Name should be in Pascal Case.
 
+
+---
+
+Additional Topic
 ### pure compinent
 
 ### higher order component
