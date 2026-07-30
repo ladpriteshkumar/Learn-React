@@ -79,3 +79,5 @@ json-server is user to create api endpoints from json file
 
 
 `axios`  api call library
+to use axios  we need to install it to react app
+`npm install axios`
